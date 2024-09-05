@@ -1,5 +1,7 @@
-public class Main {
-    public static int findhcf(int a, int b) {
+public class Main 
+{
+    public static int findhcf(int a, int b)
+    {
         int hcf = 1; // Initialize HCF to 1 (the minimum possible HCF)
 
         // Iterate from 1 to the minimum of a and b
@@ -11,7 +13,8 @@ public class Main {
         return hcf;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int num1 = 56;
         int num2 = 98;
         int hcf = findhcf(num1, num2);
